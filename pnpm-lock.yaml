@@ -48,8 +48,8 @@ importers:
         specifier: ^2.1.1
         version: 2.1.1
       lucide-react:
-        specifier: ^0.435.0
-        version: 0.435.0(react@19.0.0-rc-eb3ad065-20240822)
+        specifier: ^0.451.0
+        version: 0.451.0(react@19.0.0-rc-eb3ad065-20240822)
       next:
         specifier: 15.0.0-canary.128
         version: 15.0.0-canary.128(react-dom@19.0.0-rc-eb3ad065-20240822(react@19.0.0-rc-eb3ad065-20240822))(react@19.0.0-rc-eb3ad065-20240822)
@@ -1330,6 +1330,7 @@ packages:
   eslint@8.57.0:
     resolution: {integrity: sha512-dZ6+mexnaTIbSBZWgou51U6OmzIhYM2VcNdtiTtI7qPNZm35Akpr0f6vtw3w1Kmn5PYo+tZVfh13WrhpS6oLqQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
 
   espree@9.6.1:
@@ -1783,8 +1784,8 @@ packages:
   lru-cache@10.4.3:
     resolution: {integrity: sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ==}
 
-  lucide-react@0.435.0:
-    resolution: {integrity: sha512-we5GKfzjMDw9m9SsyZJvWim9qaT+Ya5kaRS+OGFqgLqXUrPM1h+7CiMw5pKdEIoaBqfXz2pyv9TASAdpIAJs0Q==}
+  lucide-react@0.451.0:
+    resolution: {integrity: sha512-OwQ3uljZLp2cerj8sboy5rnhtGTCl9UCJIhT1J85/yOuGVlEH+xaUPR7tvNdddPvmV5M5VLdr7cQuWE3hzA4jw==}
     peerDependencies:
       react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0-rc
 
@@ -4335,7 +4336,7 @@ snapshots:
 
   lru-cache@10.4.3: {}
 
-  lucide-react@0.435.0(react@19.0.0-rc-eb3ad065-20240822):
+  lucide-react@0.451.0(react@19.0.0-rc-eb3ad065-20240822):
     dependencies:
       react: 19.0.0-rc-eb3ad065-20240822
 
