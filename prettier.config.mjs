@@ -5,9 +5,9 @@ const prettierConfig = {
   trailingComma: 'all',
   endOfLine: 'lf',
   plugins: [
-    'prettier-plugin-tailwindcss',
     'prettier-plugin-embed',
     'prettier-plugin-sql',
+    'prettier-plugin-tailwindcss',
   ],
 };
 
