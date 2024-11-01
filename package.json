@@ -12,6 +12,7 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
+    "@auth/pg-adapter": "^1.7.2",
     "@neondatabase/serverless": "^0.10.1",
     "@radix-ui/react-avatar": "^1.1.0",
     "@radix-ui/react-checkbox": "^1.1.1",
