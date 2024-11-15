@@ -40,7 +40,7 @@
     "react-dom": "19.0.0-rc-5c56b873-20241107",
     "recharts": "^2.12.7",
     "swr": "^2.2.5",
-    "tailwind-merge": "^2.5.2",
+    "tailwind-merge": "^2.5.4",
     "tailwindcss-animate": "^1.0.7",
     "vaul": "^0.9.2"
   },
