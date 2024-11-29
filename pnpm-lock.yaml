@@ -130,20 +130,20 @@ importers:
         specifier: ^8
         version: 8.4.49
       prettier:
-        specifier: ^3.3.3
-        version: 3.3.3
+        specifier: ^3.4.1
+        version: 3.4.1
       prettier-plugin-embed:
         specifier: ^0.4.15
         version: 0.4.15
       prettier-plugin-organize-imports:
         specifier: ^4.0.0
-        version: 4.0.0(prettier@3.3.3)(typescript@5.7.2)
+        version: 4.0.0(prettier@3.4.1)(typescript@5.7.2)
       prettier-plugin-sql:
         specifier: ^0.18.1
-        version: 0.18.1(prettier@3.3.3)
+        version: 0.18.1(prettier@3.4.1)
       prettier-plugin-tailwindcss:
         specifier: ^0.6.8
-        version: 0.6.8(prettier-plugin-organize-imports@4.0.0(prettier@3.3.3)(typescript@5.7.2))(prettier@3.3.3)
+        version: 0.6.8(prettier-plugin-organize-imports@4.0.0(prettier@3.4.1)(typescript@5.7.2))(prettier@3.4.1)
       tailwindcss:
         specifier: ^3.4.15
         version: 3.4.15
@@ -2427,8 +2427,8 @@ packages:
       prettier-plugin-svelte:
         optional: true
 
-  prettier@3.3.3:
-    resolution: {integrity: sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==}
+  prettier@3.4.1:
+    resolution: {integrity: sha512-G+YdqtITVZmOJje6QkXQWzl3fSfMxFwm1tjTyo9exhkmWSqC4Yhd1+lug++IlR2mvRVAxEDDWYkQdeSztajqgg==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -5169,26 +5169,26 @@ snapshots:
     transitivePeerDependencies:
       - babel-plugin-macros
 
-  prettier-plugin-organize-imports@4.0.0(prettier@3.3.3)(typescript@5.7.2):
+  prettier-plugin-organize-imports@4.0.0(prettier@3.4.1)(typescript@5.7.2):
     dependencies:
-      prettier: 3.3.3
+      prettier: 3.4.1
       typescript: 5.7.2
 
-  prettier-plugin-sql@0.18.1(prettier@3.3.3):
+  prettier-plugin-sql@0.18.1(prettier@3.4.1):
     dependencies:
       jsox: 1.2.119
       node-sql-parser: 4.18.0
-      prettier: 3.3.3
+      prettier: 3.4.1
       sql-formatter: 15.4.2
       tslib: 2.7.0
 
-  prettier-plugin-tailwindcss@0.6.8(prettier-plugin-organize-imports@4.0.0(prettier@3.3.3)(typescript@5.7.2))(prettier@3.3.3):
+  prettier-plugin-tailwindcss@0.6.8(prettier-plugin-organize-imports@4.0.0(prettier@3.4.1)(typescript@5.7.2))(prettier@3.4.1):
     dependencies:
-      prettier: 3.3.3
+      prettier: 3.4.1
     optionalDependencies:
-      prettier-plugin-organize-imports: 4.0.0(prettier@3.3.3)(typescript@5.7.2)
+      prettier-plugin-organize-imports: 4.0.0(prettier@3.4.1)(typescript@5.7.2)
 
-  prettier@3.3.3: {}
+  prettier@3.4.1: {}
 
   pretty-format@3.8.0: {}
 
