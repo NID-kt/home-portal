@@ -54,7 +54,7 @@
     "eslint-config-prettier": "^9.1.0",
     "lefthook": "^1.8.4",
     "postcss": "^8",
-    "prettier": "^3.3.3",
+    "prettier": "^3.4.2",
     "prettier-plugin-embed": "^0.4.15",
     "prettier-plugin-organize-imports": "^4.0.0",
     "prettier-plugin-sql": "^0.18.1",
